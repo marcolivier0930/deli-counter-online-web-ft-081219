@@ -12,7 +12,7 @@ end
 
 def now_serving(array_line)
   i = 0 
-  puts "#{array_line[i]}"
+  puts "Currently serving #{array_line[i]}."
   array_line[i].shift
   i += 1 
   if array_line.length == 0 
