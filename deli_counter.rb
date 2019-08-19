@@ -10,4 +10,11 @@ def take_a_number(line_array, name)
   puts "Welcome, #{name}. You are number #{line_array.length} in line."
 end
 
-def now_serving
+def now_serving(array_line)
+  i = 0 
+  puts "#{array_line[i]}"
+  i += 1 
+  if array_line.length == 0 
+    puts "There is nobody waiting to be served!"
+  end
+end
