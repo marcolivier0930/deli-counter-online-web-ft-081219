@@ -13,7 +13,7 @@ end
 def now_serving(array_line)
   i = 0 
   puts "Currently serving #{array_line[i]}."
-  array_line[i].shift
+  array_line[i].pop
   i += 1 
   if array_line.length == 0 
     puts "There is nobody waiting to be served!"
