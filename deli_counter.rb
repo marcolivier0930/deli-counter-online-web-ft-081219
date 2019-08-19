@@ -18,6 +18,6 @@ def now_serving(array_line)
     else 
       puts "Currently serving #{array_line[i]}."
       array_line[i].shift
-    i += 1
+      i += 1
   end
 end
