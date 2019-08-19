@@ -12,7 +12,6 @@ end
 
 def now_serving(array_line)
   i = 0
-  while array_line.length 
     if array_line.length == 0 
       puts "There is nobody waiting to be served!"
     else 
